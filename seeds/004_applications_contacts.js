@@ -7,7 +7,22 @@ exports.seed = function( knex, Promise ) {
         applications_id: 1,
         contacts_id: 1,
         last_contact: "2018-07-01T00:00:00Z"
-      }
+      },
+      {
+        applications_id: 1,
+        contacts_id: 2,
+        last_contact: "2018-07-01T00:00:00Z"
+      },
+      {
+        applications_id: 1,
+        contacts_id: 3,
+        last_contact: "2018-07-01T00:00:00Z"
+      },
+      {
+        applications_id: 1,
+        contacts_id: 4,
+        last_contact: "2018-07-01T00:00:00Z"
+      },
     ] );
   } );
 };
