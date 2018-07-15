@@ -3,6 +3,7 @@ exports.up = function( knex, Promise ) {
     // TABLE COLUMN DEFINITIONS HERE
     table.integer( 'applications_id' ).notNullable().references( 'applications.id' ).onDelete( 'CASCADE' );
     table.integer( 'contacts_id' ).notNullable().references( 'contacts.id' ).onDelete( 'CASCADE' );
+    table.dateTime( 'last_contact', 255 )
     //table.timestamps(true, true)
     // OR
     table.dateTime( 'created_at' ).notNullable().defaultTo( knex.raw( 'now()' ) )

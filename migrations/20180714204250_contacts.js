@@ -7,7 +7,6 @@ exports.up = function( knex, Promise ) {
     table.string( 'last_name', 255 ).notNullable().defaultTo( '' )
     table.string( 'email', 255 ).notNullable().defaultTo( '' )
     table.string( 'phone', 10 ).notNullable().defaultTo( '' )
-    table.dateTime( 'last_contact', 255 ).notNullable().defaultTo( knex.raw( 'now()' ) )
     table.timestamps( true, true )
     // OR
     // table.dateTime('created_at').notNullable().defaultTo(knex.raw('now()'))
