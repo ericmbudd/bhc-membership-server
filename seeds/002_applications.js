@@ -5,6 +5,7 @@ exports.seed = function( knex, Promise ) {
     return knex( 'applications' ).insert( [
       {
         id: 1,
+        contacts_id: 1,
         active: true,
         move_in_date: '2018-08-01T00:00:00Z',
         current_city: "Boulder",
@@ -28,6 +29,7 @@ exports.seed = function( knex, Promise ) {
       },
       {
         id: 2,
+        contacts_id: 5,
         active: true,
         move_in_date: '2018-08-01T00:00:00Z',
         current_city: "Superior",

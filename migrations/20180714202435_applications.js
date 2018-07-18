@@ -2,6 +2,7 @@ exports.up = function( knex, Promise ) {
   return knex.schema.createTable( 'applications', function( table ) {
     // TABLE COLUMN DEFINITIONS HERE
     table.increments()
+    table.integer( 'contacts_id' ).notNullable()
     table.boolean( 'active' ).notNullable().defaultTo( true )
     table.dateTime( 'move_in_date', 255 ).notNullable().defaultTo( knex.raw( 'now()' ) )
     table.string( 'current_city', 255 ).notNullable().defaultTo( '' )

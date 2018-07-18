@@ -7,11 +7,13 @@ let router = express.Router();
 const getApplications = (req, res, next) => {
   const { id } = req.params
 
+  console.log('req.params', req.params)
+
   if (id) {
     knex('applications')
+      .select('*', 'applications.id')
+      .innerJoin('contacts', 'contacts.id', 'applications.contacts_id')
       .where('applications.id', id)
-      .join('applications_contacts', 'applications_contacts.contacts_id', 'applications.id')
-      .join('contacts', 'applications_contacts.contacts_id', 'contacts.id')
       .select('*')
       .first()
       .then(application => {
@@ -23,10 +25,8 @@ const getApplications = (req, res, next) => {
       })
   } else {
     knex('applications')
-      .join('applications_contacts', 'applications_contacts.contacts_id', 'applications.id')
-      .join('contacts', 'applications_contacts.contacts_id', 'contacts.id')
-      .where('contacts.type', "applicant")
-      .select('*')
+      .select('*', 'applications.id')
+      .innerJoin('contacts', 'contacts.id', 'applications.contacts_id')
       .then(applications => {
         res.status(200)
           .send(applications)
@@ -38,5 +38,6 @@ const getApplications = (req, res, next) => {
 }
 
 router.get('/', getApplications)
+router.get('/:id', getApplications)
 
 module.exports = router;

@@ -7,6 +7,11 @@ exports.seed = function( knex, Promise ) {
         applications_id: 1,
         houses_id: 1,
         state: "visit"
+      },
+      {
+        applications_id: 2,
+        houses_id: 1,
+        state: "visit"
       }
     ] );
   } );
