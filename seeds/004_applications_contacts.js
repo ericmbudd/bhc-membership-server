@@ -23,6 +23,26 @@ exports.seed = function( knex, Promise ) {
         contacts_id: 4,
         last_contact: "2018-07-01T00:00:00Z"
       },
+      {
+        applications_id: 2,
+        contacts_id: 5,
+        last_contact: "2018-07-01T00:00:00Z"
+      },
+      {
+        applications_id: 2,
+        contacts_id: 6,
+        last_contact: "2018-07-01T00:00:00Z"
+      },
+      {
+        applications_id: 2,
+        contacts_id: 7,
+        last_contact: "2018-07-01T00:00:00Z"
+      },
+      {
+        applications_id: 2,
+        contacts_id: 8,
+        last_contact: "2018-07-01T00:00:00Z"
+      },
     ] );
   } );
 };
