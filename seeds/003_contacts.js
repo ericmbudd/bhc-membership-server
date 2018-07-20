@@ -38,10 +38,10 @@ exports.seed = function( knex, Promise ) {
       {
         id: 5,
         type: 'applicant',
-        first_name: "Eric",
+        first_name: "Angie",
         last_name: "Budd",
-        email: "ericbudd@gmail.com",
-        phone: "7202951122"
+        email: "angiebudd@gmail.com",
+        phone: "3149419370"
       },
       {
         id: 6,

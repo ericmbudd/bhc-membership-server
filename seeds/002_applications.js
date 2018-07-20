@@ -53,7 +53,7 @@ exports.seed = function( knex, Promise ) {
       },
       {
         id: 3,
-        contacts_id: 5,
+        contacts_id: 6,
         active: true,
         move_in_date: '2018-08-01T00:00:00Z',
         current_city: "Superior",
@@ -77,7 +77,7 @@ exports.seed = function( knex, Promise ) {
       },
       {
         id: 4,
-        contacts_id: 5,
+        contacts_id: 7,
         active: true,
         move_in_date: '2018-08-01T00:00:00Z',
         current_city: "Superior",
@@ -101,7 +101,7 @@ exports.seed = function( knex, Promise ) {
       },
       {
         id: 5,
-        contacts_id: 5,
+        contacts_id: 8,
         active: true,
         move_in_date: '2018-08-01T00:00:00Z',
         current_city: "Superior",
