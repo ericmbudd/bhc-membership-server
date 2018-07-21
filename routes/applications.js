@@ -27,6 +27,7 @@ const getApplications = (req, res, next) => {
     knex('applications')
       .select('*', 'applications.id')
       .innerJoin('contacts', 'contacts.id', 'applications.contacts_id')
+      .innerJoin('applications_houses', 'applications_houses.applications_id', 'applications.id')
       .then(applications => {
         res.status(200)
           .send(applications)

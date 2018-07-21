@@ -54,7 +54,7 @@ exports.seed = function( knex, Promise ) {
       {
         id: 7,
         type: 'personal',
-        first_name: "Peronsal1",
+        first_name: "Personal1",
         last_name: "Budd",
         email: "eric@electericbudd.org",
         phone: "7202951122"
@@ -62,7 +62,7 @@ exports.seed = function( knex, Promise ) {
       {
         id: 8,
         type: 'personal',
-        first_name: "Peronsal2",
+        first_name: "Personal2",
         last_name: "Budd",
         email: "eric@electericbudd.org",
         phone: "7202951122"

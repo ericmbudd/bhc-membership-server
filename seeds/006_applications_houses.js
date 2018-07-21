@@ -6,13 +6,28 @@ exports.seed = function( knex, Promise ) {
       {
         applications_id: 1,
         houses_id: 1,
-        state: "visit"
+        state: "fail"
       },
       {
         applications_id: 2,
         houses_id: 1,
         state: "visit"
-      }
+      },
+      {
+        applications_id: 3,
+        houses_id: 1,
+        state: "references"
+      },
+      {
+        applications_id: 4,
+        houses_id: 1,
+        state: "interview"
+      },
+      {
+        applications_id: 5,
+        houses_id: 1,
+        state: "accepted"
+      },
     ] );
   } );
 };
