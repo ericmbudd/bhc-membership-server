@@ -1,6 +1,7 @@
 exports.up = function( knex, Promise ) {
   return knex.schema.createTable( 'applications_contacts', function( table ) {
     // TABLE COLUMN DEFINITIONS HERE
+    table.increments()
     table.integer( 'applications_id' ).notNullable().references( 'applications.id' ).onDelete( 'CASCADE' );
     table.integer( 'contacts_id' ).notNullable().references( 'contacts.id' ).onDelete( 'CASCADE' );
     table.dateTime( 'last_contact', 255 )
