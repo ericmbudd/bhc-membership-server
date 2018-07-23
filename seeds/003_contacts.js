@@ -13,7 +13,7 @@ exports.seed = function( knex, Promise ) {
       },
       {
         id: 2,
-        type: 'rental',
+        type: 'rental1',
         first_name: "Renty",
         last_name: "Budd",
         email: "eric@ericmbudd.com",
@@ -21,16 +21,16 @@ exports.seed = function( knex, Promise ) {
       },
       {
         id: 3,
-        type: 'personal',
-        first_name: "Peronsal1",
+        type: 'personal1',
+        first_name: "Personal1",
         last_name: "Budd",
         email: "eric@electericbudd.org",
         phone: "7202951122"
       },
       {
         id: 4,
-        type: 'personal',
-        first_name: "Peronsal2",
+        type: 'personal2',
+        first_name: "Personal2",
         last_name: "Budd",
         email: "eric@electericbudd.org",
         phone: "7202951122"
@@ -45,7 +45,7 @@ exports.seed = function( knex, Promise ) {
       },
       {
         id: 6,
-        type: 'rental',
+        type: 'rental1',
         first_name: "Renty",
         last_name: "Budd",
         email: "eric@ericmbudd.com",
@@ -53,7 +53,7 @@ exports.seed = function( knex, Promise ) {
       },
       {
         id: 7,
-        type: 'personal',
+        type: 'personal1',
         first_name: "Personal1",
         last_name: "Budd",
         email: "eric@electericbudd.org",
@@ -61,7 +61,7 @@ exports.seed = function( knex, Promise ) {
       },
       {
         id: 8,
-        type: 'personal',
+        type: 'personal2',
         first_name: "Personal2",
         last_name: "Budd",
         email: "eric@electericbudd.org",
