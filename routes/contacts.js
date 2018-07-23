@@ -29,6 +29,7 @@ const getContacts = (req, res, next) => {
       .select('applications_contacts.id', 'applications.id AS applications_id', 'contacts.id AS contacts_id',  'contacts.type', 'contacts.first_name', 'contacts.last_name', 'contacts.email', 'contacts.phone')
       .innerJoin('contacts', 'applications_contacts.contacts_id', 'contacts.id')
       .innerJoin('applications', 'applications_contacts.applications_id', 'applications.id')
+      .orderBy("applications_id")
       .then(contacts => {
         res.status(200)
           .send(contacts)
