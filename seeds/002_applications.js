@@ -17,7 +17,18 @@ exports.seed = function( knex, Promise ) {
         wait_list: true,
         vehicle: false,
         bhc_questions: {
-          "do you like co-ops?": "Yes"
+          "1": {
+            question: "How did you find out about this co-op?",
+            answer: "Craigslist"
+          },
+          "2": {
+            question: "What is it about cooperative living that interests you?",
+            answer: "I really like people!"
+          },
+          "3": {
+            question: "What skills, abilities, and interests do you have that would contribute to the co-op?",
+            answer: "I wrote this mobile application using Javascript and React Native on the Front-end, and an Express Server with a PostGres Database for the back-end"
+          }
         },
         house_questions: {
           1: {
@@ -42,7 +53,18 @@ exports.seed = function( knex, Promise ) {
         wait_list: true,
         vehicle: true,
         bhc_questions: {
-          "do you like co-ops?": "Yes"
+          "1": {
+            question: "How did you find out about this co-op?",
+            answer: "Craigslist"
+          },
+          "2": {
+            question: "What is it about cooperative living that interests you?",
+            answer: "I really like people!"
+          },
+          "3": {
+            question: "What skills, abilities, and interests do you have that would contribute to the co-op?",
+            answer: "I wrote this mobile application using Javascript and React Native on the Front-end, and an Express Server with a PostGres Database for the back-end"
+          }
         },
         house_questions: {
           1: {
@@ -67,7 +89,18 @@ exports.seed = function( knex, Promise ) {
         wait_list: true,
         vehicle: true,
         bhc_questions: {
-          "do you like co-ops?": "Yes"
+          "1": {
+            question: "How did you find out about this co-op?",
+            answer: "Craigslist"
+          },
+          "2": {
+            question: "What is it about cooperative living that interests you?",
+            answer: "I really like people!"
+          },
+          "3": {
+            question: "What skills, abilities, and interests do you have that would contribute to the co-op?",
+            answer: "I wrote this mobile application using Javascript and React Native on the Front-end, and an Express Server with a PostGres Database for the back-end"
+          }
         },
         house_questions: {
           1: {
@@ -92,7 +125,18 @@ exports.seed = function( knex, Promise ) {
         wait_list: true,
         vehicle: true,
         bhc_questions: {
-          "do you like co-ops?": "Yes"
+          "1": {
+            question: "How did you find out about this co-op?",
+            answer: "Craigslist"
+          },
+          "2": {
+            question: "What is it about cooperative living that interests you?",
+            answer: "I really like people!"
+          },
+          "3": {
+            question: "What skills, abilities, and interests do you have that would contribute to the co-op?",
+            answer: "I wrote this mobile application using Javascript and React Native on the Front-end, and an Express Server with a PostGres Database for the back-end"
+          }
         },
         house_questions: {
           1: {
@@ -117,7 +161,18 @@ exports.seed = function( knex, Promise ) {
         wait_list: true,
         vehicle: true,
         bhc_questions: {
-          "do you like co-ops?": "Yes"
+          "1": {
+            question: "How did you find out about this co-op?",
+            answer: "Craigslist"
+          },
+          "2": {
+            question: "What is it about cooperative living that interests you?",
+            answer: "I really like people!"
+          },
+          "3": {
+            question: "What skills, abilities, and interests do you have that would contribute to the co-op?",
+            answer: "I wrote this mobile application using Javascript and React Native on the Front-end, and an Express Server with a PostGres Database for the back-end"
+          }
         },
         house_questions: {
           1: {
