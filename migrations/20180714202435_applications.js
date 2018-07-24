@@ -10,6 +10,7 @@ exports.up = function( knex, Promise ) {
     table.string( 'student', 255 ).notNullable().defaultTo( '' )
     table.integer( 'children' ).notNullable().defaultTo( 0 )
     table.string( 'pronouns', 25 ).notNullable().defaultTo( '' )
+    table.date( 'birth_date', 255 ).notNullable().defaultTo( knex.raw( 'now()' ) )
     table.boolean( 'wait_list' ).notNullable().defaultTo( true )
     table.boolean( 'vehicle' ).notNullable().defaultTo( true )
     table.json( 'bhc_questions' )

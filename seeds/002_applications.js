@@ -13,6 +13,7 @@ exports.seed = function( knex, Promise ) {
         student: "No",
         children: 0,
         pronouns: "he, him, his",
+        birth_date: "1981-10-06",
         wait_list: true,
         vehicle: false,
         bhc_questions: {
@@ -37,6 +38,7 @@ exports.seed = function( knex, Promise ) {
         student: "No",
         children: 0,
         pronouns: "he, him, his",
+        birth_date: "1981-10-06",
         wait_list: true,
         vehicle: true,
         bhc_questions: {
@@ -61,6 +63,7 @@ exports.seed = function( knex, Promise ) {
         student: "No",
         children: 0,
         pronouns: "he, him, his",
+        birth_date: "1981-10-06",
         wait_list: true,
         vehicle: true,
         bhc_questions: {
@@ -85,6 +88,7 @@ exports.seed = function( knex, Promise ) {
         student: "No",
         children: 0,
         pronouns: "he, him, his",
+        birth_date: "1981-10-06",
         wait_list: true,
         vehicle: true,
         bhc_questions: {
@@ -109,6 +113,7 @@ exports.seed = function( knex, Promise ) {
         student: "No",
         children: 0,
         pronouns: "he, him, his",
+        birth_date: "1981-10-06",
         wait_list: true,
         vehicle: true,
         bhc_questions: {
