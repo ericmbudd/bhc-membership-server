@@ -38,8 +38,8 @@ exports.seed = function( knex, Promise ) {
       {
         id: 5,
         type: 'applicant',
-        first_name: "Angie",
-        last_name: "Budd",
+        first_name: "Craig",
+        last_name: "Quincy",
         email: "angiebudd@gmail.com",
         phone: "3149419370"
       },
@@ -66,6 +66,30 @@ exports.seed = function( knex, Promise ) {
         last_name: "Budd",
         email: "eric@electericbudd.org",
         phone: "7202951122"
+      },
+      {
+        id: 9,
+        type: 'applicant',
+        first_name: "Alicia",
+        last_name: "Key",
+        email: "angiebudd@gmail.com",
+        phone: "3149419370"
+      },
+      {
+        id: 10,
+        type: 'applicant',
+        first_name: "Pete",
+        last_name: "Silva",
+        email: "angiebudd@gmail.com",
+        phone: "3149419370"
+      },
+      {
+        id: 11,
+        type: 'applicant',
+        first_name: "Kinzie",
+        last_name: "",
+        email: "angiebudd@gmail.com",
+        phone: "3149419370"
       },
     ] );
   } );

@@ -77,7 +77,7 @@ exports.seed = function( knex, Promise ) {
       },
       {
         id: 3,
-        contacts_id: 6,
+        contacts_id: 9,
         active: true,
         move_in_date: '2018-08-01T00:00:00Z',
         current_city: "Superior",
@@ -113,7 +113,7 @@ exports.seed = function( knex, Promise ) {
       },
       {
         id: 4,
-        contacts_id: 7,
+        contacts_id: 10,
         active: true,
         move_in_date: '2018-08-01T00:00:00Z',
         current_city: "Superior",
@@ -149,7 +149,7 @@ exports.seed = function( knex, Promise ) {
       },
       {
         id: 5,
-        contacts_id: 8,
+        contacts_id: 11,
         active: true,
         move_in_date: '2018-08-01T00:00:00Z',
         current_city: "Superior",
@@ -171,7 +171,7 @@ exports.seed = function( knex, Promise ) {
           },
           "3": {
             question: "What skills, abilities, and interests do you have that would contribute to the co-op?",
-            answer: "I wrote this mobile application using Javascript and React Native on the Front-end, and an Express Server with a PostGres Database for the back-end"
+            answer: "I wrote this mobile application using Javascript and React Native on the front-end, and an Express Server with a PostGres Database for the back-end"
           }
         },
         house_questions: {
